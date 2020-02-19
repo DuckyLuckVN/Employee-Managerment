@@ -1,0 +1,40 @@
+@font-face {
+    font-family: QuickSand;
+    src: url("/resources/fonts/Quicksand/Quicksand-Regular.ttf");
+}
+@font-face {
+    font-family: QuickSand;
+    src: url("/resources/fonts/Quicksand/Quicksand-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: QuickSand;
+    src: url("/resources/fonts/Quicksand/Quicksand-Medium.ttf");
+    font-weight: 500;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}

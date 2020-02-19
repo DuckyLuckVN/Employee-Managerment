@@ -1,0 +1,140 @@
+* {
+    font-family: QuickSand;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f5f6f8;
+}
+
+.tbl-text-middle tbody tr td{
+    vertical-align: middle;
+}
+
+.form-p-5 {
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.main-navbar {
+    box-shadow: 0 0.125rem 0.625rem rgba(90,97,105,.12);
+}
+
+.nav-shadow {
+    /*box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);*/
+}
+.table thead tr th {
+    font-weight: bold;
+}
+
+.table thead, tbody tr {
+    text-align: center;
+}
+
+.record-result-status
+{
+    color: red;
+    font-weight: bold;
+}
+
+.form-group > label
+{
+    font-weight: bold;
+    color: #494f54;
+}
+.avatar-card
+{
+    position: relative;
+}
+.avatar-card > .avatar {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: solid 5px #f5f5f5;
+    background-image: url("/resources/image/staff/default-avatar.png");
+    background-size: 100% 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+}
+
+.avatar-card > input[type="file"]{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+.avatar-card > .avatar:hover > label[for="filePhoto"]
+{
+    opacity: 1;
+    transition: .5s;
+}
+.avatar-card > .avatar > label[for="filePhoto"] {
+    margin-bottom: 0px;
+    cursor: pointer;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 23px;
+    color: white;
+    line-height: 250px;
+    text-align: center;
+    opacity: 0;
+    transition: .5s;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+b {
+    font-weight: bold;
+}
+
+body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) { overflow-y: visible !important; }
+body.modal-open {
+    overflow: visible;
+}
+
+#btnShowFormInsert {
+    font-weight: bold;
+}
+
+#showSelectStaffRecord {
+    cursor: pointer;
+
+}
+
+table > tbody > tr > td > img {
+    cursor: pointer;
+}
+
+.form-group > label[class="error"] {
+    position: absolute;
+    color: red;
+}
+
+.form-check-label > label[class="error"]
+{
+    position: absolute;
+    color: red;
+    font-weight: bold;
+}
+
+#staffId-error {
+    display: block;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.modal-open {
+    padding-right: 0px !important;
+}
